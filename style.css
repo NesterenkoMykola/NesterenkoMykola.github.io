@@ -1,9 +1,30 @@
-body {
-  text-align: center;
+img {
+  border-radius: 50%;
+  border: solid;
+  object-fit: cover;
 }
-h1,
-h2,
-h3,
-h4 {
-  color: blue;
+.cv {
+  display: grid;
+  background: green;
+  gap: 1em;
+  padding: 2em;
+  grid-template: 100% / 30% 70%;
+  text-align: center;
+  align-items: center;
+}
+.areaA {
+  background-color: lime;
+}
+.areaB {
+  background-color: yellow;
+  border-radius: 20%;
+}
+.areaC {
+  background-color: blue;
+}
+.areaD {
+  background-color: yellow;
+}
+h2 {
+  text-shadow: 2px 2px red;
 }
